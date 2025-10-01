@@ -1,0 +1,28 @@
+.bulk-pricing-wrapper {
+    margin-top: 10px;
+}
+
+.bulk-pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bulk-pricing-table th,
+.bulk-pricing-table td {
+    text-align: left;
+    padding: 6px;
+}
+
+.bulk-pricing-table tbody tr:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+.bulk-pricing-table .actions {
+    width: 60px;
+    text-align: center;
+}
+
+.bulk-pricing-table .remove-bulk-pricing-tier {
+    color: #a00;
+    font-weight: bold;
+}
